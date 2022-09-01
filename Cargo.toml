@@ -7,8 +7,12 @@ version = "0.1.0"
 
 build = "build.rs"
 
-homepage="https://github.com/tqlab/proc-rs"
+homepage = "https://github.com/tqlab/proc-rs"
 license = "GPL"
+
+exclude = [
+  "proc-c/*",
+]
 
 [build-dependencies]
 bindgen = {version = "0.60", default-features = false, optional = true, features = ["runtime"]}
