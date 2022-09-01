@@ -1,0 +1,3 @@
+[submodule "proc-c"]
+	path = proc-c
+	url = https://github.com/tqlab/proc-c.git
