@@ -3,7 +3,7 @@ authors = ["tqlab"]
 description = "Linux/Macos process monitor."
 edition = "2021"
 name = "proc_monitor"
-version = "0.1.1"
+version = "0.1.2"
 
 build = "build.rs"
 
